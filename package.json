@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A bot to be used in discord to store helpful links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/jordattebayo.git"
+  },
+  "keywords": [
+    "Discord",
+    "DiscordBot",
+    "NodeJS"
+  ],
+  "author": "Jordan Booker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/jordattebayo/issues"
+  },
+  "homepage": "https://github.com/github.com/jordattebayo#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.2",
+    "validator": "^13.1.1"
+  }
+}
